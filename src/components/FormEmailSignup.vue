@@ -12,7 +12,7 @@
       </field>
       <btn
         type="submit"
-        value="Alert"
+        value="Subscribe"
         size="lg"
         theme="tendermint"
         id="mc-embedded-subscribe">
@@ -27,19 +27,21 @@
 </template>
 
 <script>
-import Field from '@nylira/vue-input'
-import Btn from '@nylira/vue-button'
+import Field from "@nylira/vue-input";
+import Btn from "@nylira/vue-button";
 export default {
-  name: 'form-email-signup',
+  name: "form-email-signup",
   components: {
     Btn,
     Field
   }
-}
+};
 </script>
 
 <style lang="stylus">
-form.form-email-signup
-  .input-group
-    display flex
+form.form-email-signup {
+  .input-group {
+    display: flex;
+  }
+}
 </style>
